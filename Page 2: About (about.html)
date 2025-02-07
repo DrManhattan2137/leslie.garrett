@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Leslie Garrett</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Include Header -->
+  <?php include 'header.html'; ?>
+
+  <section class="about">
+    <h1>About Me</h1>
+    <p>
+      [Your detailed professional summary goes here. Focus on your experience in secure data center operations, cloud infrastructure, and emerging AI skills.]
+    </p>
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Rackspace Technology</strong> - Data Center Operations Technician III (Apr 2023 – Present)</li>
+      <li><strong>Amazon Web Services</strong> - Rack Decom Data Tech (Aug 2022 – Feb 2023)</li>
+      <li><strong>Freelance IT Specialist</strong> (Apr 2021 – Jan 2022)</li>
+      <li><strong>Stars and Stripes</strong> - Multimedia Consultant (May 2010 – Dec 2014)</li>
+    </ul>
+    <h2>Skills & Certifications</h2>
+    <p>Data Sanitization, Hardware Decommissioning, Cloud Infrastructure, AI/ML Fundamentals, Cybersecurity, Linux/Windows Administration, AWS (SageMaker, EC2, S3), etc.</p>
+    <a href="resume.pdf" class="download-btn">Download My Resume</a>
+  </section>
+
+  <!-- Include Footer -->
+  <?php include 'footer.html'; ?>
+</body>
+</html>
